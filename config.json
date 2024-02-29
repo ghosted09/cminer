@@ -1,14 +1,16 @@
 {
 	"pools":[
 	{
-		"name": "pool.verus.io",
-        "url": "stratum+tcp://pool.verus.io:9999",
-		"timeout": 150,
+		"name": "verus.io",
+        "url": "stratum+tcp://verushash.asia.mine.zergpool.com:3300",
+		"timeout": 100,
 		"disabled": 0
 	}],
 	
-	"user": "RP354T922pekcLQ15igzS6tyDFkr53HMcE.Arm",
+	"user": "0x4a81D04e816983486a38b18d1681B65C381f3c52",
+	"password": "c=BNB,mc=VRSC,m=party,ID=Arm",
 	"algo": "verus",
+	"": "",
 	"threads": 4,
 	"cpu-priority": 1,
 	"retry-pause": 5,
