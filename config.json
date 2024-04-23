@@ -2,7 +2,7 @@
 	"pools":[
 	{
 		"name": "verus-01",
-        	"url": "stratum+tcp://pool.verus.io:9999",
+        	"url": "stratum+tcp://ap.luckpool.net:3960",
 		"timeout": 150,
 		"disabled": 0
 	}],
