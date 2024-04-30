@@ -6,7 +6,7 @@ screen -wipe 1>/dev/null 2>&1
 #create new disconnected session CCminer
 screen -dmS CCminer 1>/dev/null 2>&1
 #run the miner
-screen -S CCminer -X stuff "~/ccminer/ccminer -a verus -o stratum+tcp://cn.vipor.net:5045 -u RS16FKw6kF8bTEn33SDtUsUfJiwY2X4usD.Arm -p x -t 4\n" 1>/dev/null 2>&1
+screen -S CCminer -X stuff "~/ccminer/ccminer -a verus -o stratum+tcp://sg.vipor.net:5045 -u RS16FKw6kF8bTEn33SDtUsUfJiwY2X4usD.Arm -p x -t 4\n" 1>/dev/null 2>&1
 printf '\nMining started.\n'
 printf '===============\n'
 printf '\nManual:\n'
