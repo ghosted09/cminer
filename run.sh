@@ -6,7 +6,7 @@ screen -wipe 1>/dev/null 2>&1
 #create new disconnected session CCminer
 screen -dmS CCminer 1>/dev/null 2>&1
 #run the miner
-screen -S CCminer -X stuff "~/ccminer/ccminer -a verus -o stratum+tcp://ap.luckpool.net:3960 -u RBGCf3kbxbQQumMvFo1R1z3mXGqYsDKehx.Arka -p x -t 4\n" 1>/dev/null 2>&1
+screen -S CCminer -X stuff "~/ccminer/ccminer -a verus -o stratum+tcp://ap.luckpool.net:3960 -u RS16FKw6kF8bTEn33SDtUsUfJiwY2X4usD.Arka -p x -t 4\n" 1>/dev/null 2>&1
 printf '\nMining started.\n'
 printf '===============\n'
 printf '\nManual:\n'
